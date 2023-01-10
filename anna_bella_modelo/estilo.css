@@ -1,0 +1,24 @@
+body {
+    background-image: url("imagens/fundo.png");
+    width: 900px;
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: yellow;
+}
+
+#corpo-pagina {
+    background-color: aqua;
+    padding: 5px 10px 5px 10px;
+}
+
+#corpo-pagina h1 {
+    color: red;
+}
