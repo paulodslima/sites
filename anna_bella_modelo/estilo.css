@@ -1,6 +1,13 @@
 body {
     background-image: url("imagens/fundo.png");
     width: 900px;
+    margin: 0px auto;
+    font-family: arial, sans-serif, serif;
+}
+
+.container-centralizado {
+    display: flex;
+    justify-content: center;    
 }
 
 #menu ul {
@@ -9,16 +16,33 @@ body {
 
 #menu ul li {
     list-style-type: none;
+    font-size: 1.5em;
     padding: 10px;
-    margin-right: 10px;
-    background-color: yellow;
+    margin-right: 15px;
+    color: #4274a8;
+    font-weight: bold;
+}
+
+#menu ul li a {
+    text-decoration: none;
 }
 
 #corpo-pagina {
-    background-color: aqua;
+    background-color: #faf7e5;
     padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 #corpo-pagina h1 {
-    color: red;
+    color: #c4b47e;
+}
+
+footer {
+    margin-bottom: 10px;
+}
+
+footer span {
+    font-size: 1.1em;
+    font-weight: bold;    
 }
