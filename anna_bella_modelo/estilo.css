@@ -38,6 +38,10 @@ body {
     color: #c4b47e;
 }
 
+#corpo-pagina img {
+    border: 10px solid #c1ba99;
+}
+
 footer {
     margin-bottom: 10px;
 }
@@ -45,4 +49,8 @@ footer {
 footer span {
     font-size: 1.1em;
     font-weight: bold;    
+}
+
+.negrito {
+    font-weight: bold;
 }
