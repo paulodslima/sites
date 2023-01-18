@@ -1,18 +1,33 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: arial, sans-serif, serif;   
 }
+
+body {
+    background-color: rgb(237, 237, 237); 
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.centralizar-texto-horizontal {
+    text-align: center;
+}
+
+.centralizar-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Formatação menu */
 
 header {
-    background-color: yellow;
+    background-color: #FFD700;
     padding-top: 20px;
     padding-bottom: 20px;
-}
-
-.centralizar-horizontal {
-    text-align: center;
 }
 
 .menu {
@@ -27,10 +42,8 @@ header {
 
 .menu ul li {
     list-style: none;
-    margin-right: 10px;
-    padding: 10px;
-    border: 2px solid red;
-    background-color: black;
+    margin-right: 30px;
+    font-size: 1.3em;
 }
 
 .menu ul li a {
@@ -42,14 +55,92 @@ header {
     font-size: 1.5em;
     color: black;
     position: relative;
-    right: -5px;
 }
 
 #logo-texto-branco {
     font-size: 1.5em;
     color: white;
     position: relative;
-    left: -5px;
+    left: -10px;
 }
 
 /* Fim formatação menu */
+
+/* Formatação postagem */
+
+.postagem {
+    width: 640px;
+    padding: 20px 15px 20px 15px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 250px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+
+.postagem h2 {
+    color: #FFD700;
+}
+
+.postagem h3 {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+}
+
+.leia-mais {
+    color: #e9c914;
+    text-decoration: none;
+}
+
+/* Fim formatação postagem */
+
+/* Formatação menu lateral */
+
+.menu-lateral {
+    width: 300px;
+    padding: 10px;
+    right: 320px;
+    margin-top: 20px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+
+.menu-lateral2 {
+    width: 300px;
+    padding: 10px;
+    right: 320px;
+    margin-top: 230px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+
+.menu-lateral-titulo {
+    background-color: #A9A9A9;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.menu-lateral p {
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.link-menu {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+/* Fim formatação menu lateral */
+
+.rodape {
+    background-color: #A9A9A9;
+    width: 76%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
