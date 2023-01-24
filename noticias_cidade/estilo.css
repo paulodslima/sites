@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    font-family: arial;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    background-color: #294c71;
+    background-image: url(imagens/fundo.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+#container_menu {
+    width: 100%;
+    height: 300px;
+    background: url(imagens/logo.png) no-repeat 25% 30%;
+}
+
+#imagem_fundo {
+    background: url(imagens/detalhe-topo.png) no-repeat left;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    background: url(imagens/detalhe-topo.png) no-repeat 74% 25%;
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+    left: -100px;
+}
+
+#menu a {
+    font-size: 1.2em;
+    color: white;
+    padding: 10px 20px;
+    background: rgb(177, 7, 7) url(imagens/divisor.png) right repeat-y;
+    text-decoration: none;
+}
+
+#primeiro {
+    background: url(imagens/divisor.png) right repeat-y;
+}
+
+#corpo_pagina {
+    width: 1000px;
+    height: 900px;
+    margin: 10px auto;
+    background-color: yellow;
+}
+
+.menu_lateral {
+    width: 250px;
+    height: 100%;
+    float: left;
+}
+
+.container_lateral {
+    background: url(imagens/fundo-caixa.png);
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.container_lateral h2 {
+    padding: 7px;
+    background-color: #294c71;
+    color: white;
+}
+
+.container_lateral ul {
+    list-style: none;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container_lateral li {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container_lateral a {
+    text-decoration: none;
+    color: black;
+}
