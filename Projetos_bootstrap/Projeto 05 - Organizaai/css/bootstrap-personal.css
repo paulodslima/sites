@@ -1,0 +1,19 @@
+.bg {
+    background-color: #6bc39d !important;
+  }
+  
+a.bg:hover, a.bg:focus,
+  button.bg:hover,
+  button.bg:focus {
+    background-color: #6bc39d !important;
+}
+
+.bg-right {
+    background-color: #25a56e !important;
+  }
+  
+a.bg-right:hover, a.bg-right:focus,
+  button.bg-right:hover,
+  button.bg-right:focus {
+    background-color: #25a56e !important;
+}
